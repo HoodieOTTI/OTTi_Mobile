@@ -14,6 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: Constants.statusBarHeight,
   },
 });
+
+//빌드 명령어
+// eas build -p android --profile preview
